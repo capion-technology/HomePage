@@ -1,91 +1,91 @@
 const dataPortfolio = [
     {"title":"부산광역시 방문간호시스템"
     ,"conts":"보건소의 방문간호사가 재택환자를 방문하여 계측기를 이용하여 생체신호(혈압, 혈당 등)를 측정하고 PDA를 통해 데이터를 저장 및 전송하는 시스템"
-    ,"logo":"../assets/img/info/부산광역시방문간호시스템.jpg"
+    ,"logo":"./assets/img/info/부산광역시방문간호시스템.jpg"
     ,"seq":"01"}
     ,
     {"title":"서울대간호대학 가정간호시스템"
     ,"conts":"가정간호사업소의 가정간호사가 계측기를 이용하여 환자사정을 하고 PDA에 탑재된 진단 알고리즘을 이용하여 중재서비스를 가이드하는 시스템"
-    ,"logo":"../assets/img/info/서울대학교간호대학가정간호시스템.jpg"
+    ,"logo":"./assets/img/info/서울대학교간호대학가정간호시스템.jpg"
     ,"seq":"02"}
     ,
     {"title":"솔고바이오메디칼 물류지원시스템"
     ,"conts":"제품생산 완료 후 물류창고의 물품을 바코드를 이용하여 재고관리, 입출고 관리 및 반품관리 업무 자동화하며 ERP시스템과 연동하여 데이터를 통합관리"
-    ,"logo":"../assets/img/info/솔고바이오메디칼물류지원시스템.jpg"
+    ,"logo":"./assets/img/info/솔고바이오메디칼물류지원시스템.jpg"
     ,"seq":"03"}
     ,
     {"title":"하이마트 매장관리시스템"
     ,"conts":"고객의 구입상품을 바코드로 입력 받아 결제정보 데이터를 카운터로 무선 전송함으로써 지불결제처리업무를 자동화.<br/> 신제품 출시현황, 이벤트 행사 안내, 사내공지사항 기능 제공"
-    ,"logo":"../assets/img/info/하이마트매장관리시스템.jpg"
+    ,"logo":"./assets/img/info/하이마트매장관리시스템.jpg"
     ,"seq":"04"}
     ,
     {"title":"관세청 수입관리시스템"
     ,"conts":"현장에서 PDA를 이용한 통관업무 처리시스템으로서 검사직원이 자신에게 배부된 검사대상을 조회하고 신고서를 선택함. 검사현황 조회, 검사결과 기록 및 내장카메라에 의한 영상촬영 기능 제공"
-    ,"logo":"../assets/img/info/관세청수입관리시스템.jpg"
+    ,"logo":"./assets/img/info/관세청수입관리시스템.jpg"
     ,"seq":"05"}
     ,
     {"title":"현대건설 모바일A/S시스템"
     ,"conts":"A/S요원이 건설현장에서 A/S접수 및 처리결과를 입력하는 시스템<br/>하자현장을 PDA내장 카메라로 촬영하여 A/S기록과 함께 서버로 전송"
-    ,"logo":"../assets/img/info/현대건설모바일AS시스템.jpg"
+    ,"logo":"./assets/img/info/현대건설모바일AS시스템.jpg"
     ,"seq":"06"}
     ,
     {"title":"한진택배 모바일택배시스템"
     ,"conts":"택배E/S사원들을 위한 물류 시스템으로 집배송 작업과 작업 결과 실시간 전송 및 라우팅 기능을 제공. GIS를 이용하여 위치정보를 실시간 전송함으로써 현재 작업진행상황을 모니터링함"
-    ,"logo":"../assets/img/info/한진택배모바일택배시스템.jpg"
+    ,"logo":"./assets/img/info/한진택배모바일택배시스템.jpg"
     ,"seq":"07"}
     ,
     {"title":"한국수자원공사 수자원관리시스템"
     ,"conts":"PDA에 탑재된 GIS(SmallWorld)를 이용하여 현장에서 시설물정보와 수질정보를 조회 및 기록하고, 수요자 대상으로 계약조회, 검침등록, 수납업무를 처리하는 시스템"
-    ,"logo":"../assets/img/info/한국수자원공사수자원관리시스템.jpg"
+    ,"logo":"./assets/img/info/한국수자원공사수자원관리시스템.jpg"
     ,"seq":"08"}
     ,
     {"title":"두산인프라코어(구 대우종합기계) 모바일 SFA시스템"
     ,"conts":"영업사원이 고객관리 및 영업활동을 통합적으로 수행할 수 있게 되어, 고객확보에서 최종 계약체결, 고객서비스 개선 등 업무혁신을 달성<br/>납기정보, 판매가는 기간시스템에서 온라인 조회, 활동계획 및 실적은 로컬 DB에 저장하여 배치로 동기화"
-    ,"logo":"../assets/img/info/두산인프라코어모바일SFA시스템.jpg"
+    ,"logo":"./assets/img/info/두산인프라코어모바일SFA시스템.jpg"
     ,"seq":"09"}
     ,
     {"title":"kt샵 쇼핑몰 플랫폼 구축"
     ,"conts":"고객, 대리점, 올레샵 간의 업무관계를 고려한 쇼핑몰 프레임워크 도입<br/>이원화되어 운영 중인 시스템을 Cloud 환경으로의 통합"
-    ,"logo":"../assets/img/info/KT샵쇼핑몰플랫폼구축.jpg"
+    ,"logo":"./assets/img/info/KT샵쇼핑몰플랫폼구축.jpg"
     ,"seq":"10"}
     ,
     {"title":"교원그룹 포인트몰 구축"
     ,"conts":"교원그룹 통합 포인트 몰 구축 및 운영"
-    ,"logo":"../assets/img/info/교원그룹포인트몰구축.jpg"
+    ,"logo":"./assets/img/info/교원그룹포인트몰구축.jpg"
     ,"seq":"11"}
     ,
     {"title":"농협 통합 쇼핑몰 구축"
     ,"conts":"농협몰 업무시스템의 구축 및 안정적 운영<br/>표준 운영관리체계 기반의 효과적인 대고객 서비스 대응"
-    ,"logo":"../assets/img/info/농협통합쇼핑몰구축.jpg"
+    ,"logo":"./assets/img/info/농협통합쇼핑몰구축.jpg"
     ,"seq":"12"}
     ,
     {"title":"Gs fresh 통합몰 구축"
     ,"conts":"모바일 고객에게 편리한 쇼핑환경 제공<br/>판교 중대형 자동화센터를 지원하기 위한 WMS 시스템도입<br/>고객 및 업무 측면에서 업계 최고 수준의 서비스 구축 및 운영"
-    ,"logo":"../assets/img/info/gsfresh통합몰구축.jpg"
+    ,"logo":"./assets/img/info/gsfresh통합몰구축.jpg"
     ,"seq":"13"}
     ,
     {"title":"검증 솔루션(PerfecTwin) 컨설팅 및 이행"
     ,"conts":"LG U+ cktpeo 시스템의 ‘AS-IS’와 ‘TO BE’ 테스트 결과를 자동으로 비교 검증해 오류를 사전에 검증하고 발견<br/>100%에 가까운 실거래 데이터를 통해 시스템 오픈전 테스트를 실행"
-    ,"logo":"../assets/img/info/퍼펙트윈컨설팅이행.jpg"
+    ,"logo":"./assets/img/info/퍼펙트윈컨설팅이행.jpg"
     ,"seq":"14"}
     ,
     {"title":"다이소 차세대 커머스플랫폼 구축"
     ,"conts":"차세대 다이소 몰 구축"
-    ,"logo":"../assets/img/info/다이소차세대커머스플랫폼구축.jpg"
+    ,"logo":"./assets/img/info/다이소차세대커머스플랫폼구축.jpg"
     ,"seq":"15"}
     ,
     {"title":"11번가 구축 및 운영"
     ,"conts":"전시 시스템 개발 및 운영<br/>모바일 서비스 개발 및 운영"
-    ,"logo":"../assets/img/info/11번가구축및운영.jpg"
+    ,"logo":"./assets/img/info/11번가구축및운영.jpg"
     ,"seq":"16"}
     ,
     {"title":"CJ 대한통운 주문처리 고도화"
     ,"conts":"WMS + OMS 섞여 있는 시스템을 개별 시스템으로 분리<br/>OMS 를 경유하는 주문정보가 정상 처리되어 기존 WMS 정상 작동 및 업무 처리 원활화"
-    ,"logo":"../assets/img/info/CJ대한통운OMS고도화.jpg"
+    ,"logo":"./assets/img/info/CJ대한통운OMS고도화.jpg"
     ,"seq":"17"}
     ,
     {"title":"롯데ON e-커머스통합 구축 및 운영"
     ,"conts":"롯데그룹내의 개별 운영 중인 7개 온라인상거래서비스를 오픈마켓기반 하나의 서비스로 통합하여 EC시장 내 선도적 지위 확보"
-    ,"logo":"../assets/img/info/롯데ON커머스통합구축운영.jpg"
+    ,"logo":"./assets/img/info/롯데ON커머스통합구축운영.jpg"
     ,"seq":"18"}
 ];
