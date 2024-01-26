@@ -14,6 +14,8 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="./js/dataHistory.js"></script>
+        <script src="./js/dataPortfolio.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -51,7 +53,24 @@
         <section class="about-section text-center" id="about"></section>
         
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects"></section>
+        <section class="projects-section bg-light" id="projects"><div class="container px-4 px-lg-5">
+<script>
+dataPortfolio.forEach(function(data){
+const template = `<div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-4 col-lg-5"><img class="img-fluid mb-3 mb-lg-0" src="${data.logo}" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>${data.title}</h4>
+                            <p class="text-black-50 mb-0">${data.conts}
+                            </p>
+                        </div>
+                    </div>
+                </div>`;
+            document.write(template);                           
+            });
+</script>                        
+        </div>
+        </section>
         
         <!-- history-->
         <section class="projects-section bg-light" id="history"></section>
@@ -62,11 +81,11 @@
         <section class="contact-section bg-black" id="map">
             <div class="container px-4 px-lg-5">
 
-<div style="font:normal normal 400 12px/normal dotum, sans-serif; width:640px; height:392px; color:#333; position:relative">
-    <div style="height: 360px;">
+<div style="font:normal normal 400 12px/normal dotum, sans-serif; color:#333; position:relative">
+    <div style="width:100%">
         <h2 class="text-white mb-4">찾아오는 길</h2>
         <a href="https://map.kakao.com/?urlX=474945.0&amp;urlY=1102048.0&amp;itemId=12833746&amp;q=%EC%B9%B4%ED%94%BC%EC%98%A8%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80&amp;srcid=12833746&amp;map_type=TYPE_MAP&amp;from=roughmap" target="_blank">
-            <img class="map" src="http://t1.daumcdn.net/roughmap/imgmap/6227460d12b1fd4dfd663b76bb3040f7e0660ec3b418c2a7da1c00d017e688dd" width="672px" height="" style="border:1px solid #ccc;">
+            <img class="map" src="http://t1.daumcdn.net/roughmap/imgmap/6227460d12b1fd4dfd663b76bb3040f7e0660ec3b418c2a7da1c00d017e688dd" style="border:1px solid #ccc; width:100%;">
         </a>
     </div>
     <!--
@@ -127,7 +146,7 @@
             }
             
             importPage("about");
-            importPage("projects");
+            //importPage("projects");
             importPage("history");
             importPage("contact");
         </script>        
