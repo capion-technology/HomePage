@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
@@ -110,7 +111,7 @@ const template = `<div class="row gx-0 mb-4 mb-lg-5 align-items-center">
     <div style="width:100%">
         <h2 class="text-white mb-4">찾아오는 길</h2>
         <a href="https://map.kakao.com/?urlX=474945.0&amp;urlY=1102048.0&amp;itemId=12833746&amp;q=%EC%B9%B4%ED%94%BC%EC%98%A8%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80&amp;srcid=12833746&amp;map_type=TYPE_MAP&amp;from=roughmap" target="_blank">
-            <img class="map" src="http://t1.daumcdn.net/roughmap/imgmap/6227460d12b1fd4dfd663b76bb3040f7e0660ec3b418c2a7da1c00d017e688dd" style="border:1px solid #ccc; width:100%;">
+            <img class="map" src="https://t1.daumcdn.net/roughmap/imgmap/6227460d12b1fd4dfd663b76bb3040f7e0660ec3b418c2a7da1c00d017e688dd" style="border:1px solid #ccc; width:100%;">
         </a>
     </div>
     <!--
@@ -189,7 +190,7 @@ const template = `<div class="row gx-0 mb-4 mb-lg-5 align-items-center">
         })
        */
        $(window).scroll(function () {
-                if ($(this).scrollTop() > 400) {
+                if ($(this).scrollTop() > 100) {
                     $('#back-top').fadeIn();
                 } else {
                     $('#back-top').fadeOut();
