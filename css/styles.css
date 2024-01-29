@@ -11112,13 +11112,14 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 2rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
 }
 
+/** projects ****************************************************************/
 .projects-section {
   padding: 3rem 0;
 }
@@ -11141,6 +11142,36 @@ body {
     padding: 5rem;
   }
 }
+/** projects ****************************************************************/
+
+/** history ****************************************************************/
+.history-section {
+  padding: 3rem 0;
+}
+.history-section .featured-text {
+  padding: 2rem;
+}
+/* 프로젝트 보더*/
+@media (min-width: 992px) {
+  .history-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.08rem solid #64a19d;
+  }
+}
+.history-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .history-section .project-text {
+    padding: 5rem;
+  }
+}
+.history-div{
+  float:left;
+  min-width: 40%;
+}
+/** history ****************************************************************/
 
 .signup-section {
   padding: 10rem 0;
