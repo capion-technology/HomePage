@@ -171,6 +171,7 @@ const template = `<div class="row gx-0 mb-4 mb-lg-5 align-items-center">
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
        <script>
+  /*
         $(function(){
             // 일단 버튼을 숨긴다
             $("#back-top").hide();
@@ -186,7 +187,15 @@ const template = `<div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                 })
             }) 
         })
-          
+       */
+       $(window).scroll(function () {
+                if ($(this).scrollTop() > 400) {
+                    $('#back-top').fadeIn();
+                } else {
+                    $('#back-top').fadeOut();
+                }
+            });   
+
         </script>
  
         <script>
