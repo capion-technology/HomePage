@@ -58,7 +58,7 @@
         <section class="projects-section bg-light" id="projects"><div class="container px-4 px-lg-5">
 <script>
 dataPortfolio.forEach(function(data){
-const template = `<div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+const template = `<div class="row gx-0 mb-4 mb-lg-5 align-items-center" style="width:60%">
                     <div class="col-xl-3 col-lg-5"><img class="img-fluid mb-3 mb-lg-0" src="${data.logo}" alt="..." /></div>
                     <div class="col-xl-9 col-lg-7">
                         <div class="featured-text text-center text-lg-start">
@@ -75,11 +75,27 @@ const template = `<div class="row gx-0 mb-4 mb-lg-5 align-items-center">
         </section>
         
         <!-- history-->
-        <section class="projects-section bg-light" id="history">
+        <section class="about-section bg-light" id="history">
 
 
             <script>
                 getData().forEach(item => {
+
+                    var historytext =`
+                    <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">${item.year}</h2>
+
+                        <p class="text-white-50">
+                            ${item.conts}
+                        </p>
+
+                
+                    </div>
+                </div>
+
+            </div>`
                     var test=`<div class="row gx-0 mb-5 mb-lg-1 justify-content-center">
         <!-- -->
         
@@ -95,7 +111,7 @@ const template = `<div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     </div>
                 </div>
             </div>`
-            document.write(test);
+            document.write(historytext);
                 });
             
         </script>
